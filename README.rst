@@ -1,19 +1,23 @@
-# ตัวอย่างโปรแกรมหัดเขียนPython
+ตัวอย่างโปรแกรมหัดเขียนPython
+==================================
 
-### วิธีติดตั้ง
+วิธีติดตั้ง
+~~~~~~~~~~~~~~
 
 เปิด CMD / Terminal
 
-```python
-pip install PtPclass
-```
+.. code:: python
 
-### วิธีเล่น
+	pip install PtPclass
+
+วิธีเล่น
+~~~~~~~~~~~~~~
 
 เปิด IDLE ขึ้นมาแล้วพิมพ์...
 
-```python
->>> from PtPclass import Student, StudentSpecial
+.. code:: python
+
+	from PtPclass import Student, StudentSpecial
 
 	print('=======1 Jan=======')	
 	student0 = SpecialStudent('Will', 'Gates')
@@ -45,10 +49,6 @@ pip install PtPclass
 
 	student1.ShowEXP()
 	student2.ShowEXP()
-```
-
 
 
 พัฒนาโดย: Phet THEPVONGSA
-
-
